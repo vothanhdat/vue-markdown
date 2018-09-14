@@ -313,6 +313,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            }
 
 	            _this.$emit('toc-rendered', tocHtml);
+	            _this.$emit('toc-content', tocArray);
 	          }
 	        }
 	      });
