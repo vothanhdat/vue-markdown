@@ -197,6 +197,7 @@ export default {
             }
 
             this.$emit('toc-rendered', tocHtml)
+            this.$emit('toc-content', tocArray)
           }
         },
       })
